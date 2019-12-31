@@ -1,0 +1,69 @@
+
+<div class="header header-fixed" >
+  <div class="navbar container" id="nav">
+    <div class="logo"><img routerLink="/Accueil"  id="Logo"  src="https://drive.google.com/uc?export=view&id=1w7JteIkxap0yk07-saZeiafX58ip_tXU" alt="Lorem Ipsum"></div>
+
+    <input type="checkbox" id="navbar-toggle" >
+    <label for="navbar-toggle"><i></i></label>
+    <nav class="menu stroke" id="hamburger-menu" >
+
+      <ul class="mymenu"  >
+
+        <li  routerLink="/Accueil"> <label  class="go" for="navbar-toggle" >	</label>  <a  id="ac" style="color: #222222"  > <img id="Accueil" alt="Home"    src="https://drive.google.com/uc?export=view&id=1V_e7xuGvLgr7HIUEnwETp-e_b5a6KIQx" style="padding: 2%"><label class="go" for="navbar-toggle" >Accueil</label>  <span class="Go1">Accueil</span></a></li>
+        <li   routerLink="/Produits"  >	<label class="go" for="navbar-toggle" >	</label><a  style="color: #222222"   ><img id="Fille" alt="Projects"  src="https://drive.google.com/uc?export=view&id=1L3pzum4Xn4Z_WEWlkTfUXgY3Jh4DESzS" style="padding: 2%"><label class="go" for="navbar-toggle" >Produits</label><span class="Go1">Produits</span></a>	</li>
+        <li   routerLink="/Nos-choix" >		<label class="go" for="navbar-toggle" >	</label>	<a   style="color: #222222"  > <img id="Garçon" alt="Nos choix"  src="https://drive.google.com/uc?export=view&id=1viB4J-6pjyuAhXLrZwepd_fPT6AFDpMj" style="padding: 2%"> <label class="go" for="navbar-toggle" >Nos choix</label> <span class="Go1">Nos choix</span> </a>		</li>
+        <li   routerLink="/Le-Journal-Planète"  > <a style="color: #222222"  ><img  id="Lamarque" alt="Contact"   src="https://drive.google.com/uc?export=view&id=1MTj0a7xJ6Y1P1jiLSXbyyz8dWn4kK5hH" style="padding: 2%"><label class="go" for="navbar-toggle" >Le journal planète</label><span class="Go1">Journal planète</span></a></li>
+        <li   routerLink="/Nous-trouver"  > <label class="go" for="navbar-toggle" >	</label>	<a   style="color: #222222"  > <img id="EspacePro" alt="Admin"  src="https://drive.google.com/uc?export=view&id=1lVLOllTTZHVRFiZCFf-R02Wbo-goFN-B" style="padding: 2%"><label class="go" for="navbar-toggle" ></label> <span class="Go1"></span> </a>		</li>
+      </ul>
+    </nav>
+  </div>
+</div>
+
+<div class="hline"></div>
+
+
+
+
+<router-outlet></router-outlet>
+<footer  id="footer" class="footer-area footer--light">
+
+
+  <div class="mini-footer bg--light">
+    <div   class="container">
+      <div    class="row" style="margin-left: 8%">
+
+
+        <div class="col-md-3 col-sm-4">
+          <div class="footer-widget">
+            <div class="footer-menu footer-menu--1">
+              <h4  class="footer-widget-title" > <a  class="foot" routerLink="/Nous-Contacter"> Nous contacter</a></h4>
+
+            </div>
+            <!-- end /.footer-menu -->
+          </div>
+          <!-- Ends: .footer-widget -->
+        </div>
+        <!-- end /.col-md-3 -->
+
+        <div  id="cont" class="col-md-3 col-sm-4">
+          <div class="footer-widget">
+            <div class="footer-menu">
+              <h4 class="footer-widget-title">  <a class="foot" routerLink="/Mentions-Legales" >  Mentions légales </a></h4>
+
+            </div>
+
+            <!-- end /.footer-menu -->
+          </div>
+
+          <!-- Ends: .footer-widget -->
+        </div>
+        <!-- end /.col-lg-3 -->
+        <img routerLink="/Admin" id="loc"   src="https://drive.google.com/uc?export=view&id=1wctu7r0rtQTZpSUJ7PnEooMxb1hikT_G" alt="Lorem Ipsum">
+        <!-- Ends: .col-lg-3 -->
+
+      </div>
+      <!-- end /.row -->
+    </div>
+  </div>
+
+</footer>

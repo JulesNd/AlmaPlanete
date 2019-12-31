@@ -1,0 +1,15 @@
+@font-face {
+  font-family: concert;
+  src: url("assets/concertone-regular.ttf") format("opentype");
+  font-display: swap;
+}
+@font-face {
+  font-family: hand;
+  src: url("assets/Pangolin-Regular.ttf") format("opentype");
+  font-display: swap;
+}
+
+*{
+  font-family: concert, serif;
+
+}

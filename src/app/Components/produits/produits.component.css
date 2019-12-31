@@ -1,0 +1,210 @@
+.container {
+  width: 100%;
+  height: auto;
+  background-image: url("https://www.transparenttextures.com/patterns/cardboard.png");
+  /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+  /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+}
+
+.title {
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.87);
+  font-family: hand, serif;
+  padding: 5%;
+  font-size: 6vh;
+}
+.title2 {
+  font-size: 5vh;
+  padding: 5%;
+}
+
+
+.text1 {
+  width: 70%;
+  font-family: hand, serif;
+  font-size: 3.5vh;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  color: rgba(0, 0, 0, 0.87);
+  text-align: center;
+}
+.color-dd-gradient {
+  -webkit-background-clip: text;
+  background-image: linear-gradient(to right, rgba(255, 237, 2, 0.84), #66cdff);
+
+
+
+  -webkit-text-fill-color: transparent;
+  color: #464646;
+  display: inline-block;
+
+  font-family: hand, serif;
+}
+
+.chaussures{
+  padding: 2%;
+  font-size: 2vh;
+  width: 70%;
+}
+
+.pic1 {
+  float: left;
+  width: 20%;
+  height: auto;
+}
+.pic2 {
+  float: right;
+  width: 20%;
+  height: auto;
+}
+
+.card{
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  font-size: 2vh;
+}
+.title3 {
+  font-size: 5vh;
+  padding: 3%;
+}
+
+.pic3 {
+  width: 80%;
+  height: 500px;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 80%;
+  display: block;
+  -webkit-box-shadow: 0 0 15px rgba(71,71,71,.2);
+  -moz-box-shadow: 0 0 15px rgba(71,71,71,.2);
+  box-shadow:0 0 15px rgba(71,71,71,.2);
+}
+
+#photo8{
+  margin-top: 5%;
+  width: 95%;
+  height: 500px;
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+  -webkit-box-shadow: 0 0 15px rgba(46, 46, 46, 0.35);
+  -moz-box-shadow: 0 0 15px rgba(46, 46, 46, 0.35);
+  box-shadow:0 0 15px rgba(46, 46, 46, 0.35);
+}
+
+.demarches{
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+  text-align: center;
+}
+#tricot, #partner , #soutient {
+  padding: 5%;
+  font-size: 3vh;
+  font-family: hand, serif;
+}
+
+.valeurs {
+  padding: 5%;
+  font-size: 3vh;
+}
+
+.smallicons {
+  width: 10%;
+
+
+}
+.band {
+  width: 90%;
+  max-width: 1240px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  grid-gap: 20px;
+}
+@media (min-width: 30em) {
+  .band {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (min-width: 60em) {
+  .band {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+.card {
+  text-decoration: none;
+  color: #444;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  position: relative;
+  top: 0;
+  transition: all .1s ease-in;
+}
+
+.card article {
+  padding: 20px;
+  flex: 1;
+
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+.card h1 {
+  font-size: 20px;
+  margin: 0;
+  color: #333;
+  font-family: hand, serif;
+  text-align: center;
+
+}
+.card p {
+  flex: 1;
+  line-height: 1.4;
+}
+.card span {
+  font-size: 12px;
+  font-weight: bold;
+  color: #676767;
+  font-family: hand, serif;
+
+  letter-spacing: .05em;
+
+}
+.card .thumb {
+
+  background-size: cover;
+  width: 100%;
+  height: auto;
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+
+  background-position: center center;
+}
+
+@media (min-width: 60em) {
+  .item-1 {
+    grid-column: 1 / span 2;
+  }
+  .item-1 h1 {
+    font-size: 24px;
+  }
+}
+
+.minipic{
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  padding: 2%;
+}

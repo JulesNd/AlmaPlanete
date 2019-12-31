@@ -1,0 +1,184 @@
+video{
+  height: auto;
+  width:70%;
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+
+}
+#jumb {
+  background-image: url("https://www.transparenttextures.com/patterns/clean-textile.png")
+}
+.grad{
+
+  background: linear-gradient(-45deg, rgba(233, 120, 85, 0.87), rgba(231, 60, 126, 0.84), rgba(35, 166, 213, 0.87), rgba(35, 213, 171, 0.83));
+  background-size: 300% 5%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 90%;
+  margin-top: 2%;
+  animation: gradientBG 15s ease infinite;
+}
+.cont {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 90%;
+
+}
+ #bb {
+   font-size: 5vh;
+   color: white;
+ }
+
+@keyframes gradientBG {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+.tricot {background-image: url("https://www.transparenttextures.com/patterns/clean-textile.png");}
+.left-div
+{
+  display: inline-block;
+  max-width: 45%;
+  text-align: left;
+  padding: 10px;
+  background-color: transparent;
+  margin: 15px;
+  vertical-align: top;
+  color: black;
+  font-weight: 100;
+}
+.right-text {
+  padding: 2%;
+  text-align: justify;
+  text-justify: inter-word;
+  word-wrap: break-word;
+  height: 20%;
+  color: black;
+}
+.left-text{
+  padding: 2%;
+  height: 20%;
+  text-align: justify;
+  text-justify: inter-word;
+  word-wrap: break-word;
+
+}
+.right-div
+{
+  display: inline-block;
+  max-width: 46%;
+  text-align: left;
+
+  border-radius: 3px;
+
+  margin: 15px;
+  font-size: 3.5vh;
+
+  font-weight: 100;
+
+  color: #222222;
+
+}
+.tab-content {
+  overflow: hidden; }
+.tab-content img {
+  width: 100%;
+}
+.preview-pic{
+  width: 150%;
+  height: auto;
+}
+#pic-1 , #pic-2 , #pic-3 , #pic-3 , #pic-4 , #pic-5  {
+  width: 60%;
+  height: auto;
+}
+
+.jumbotron {
+  background-color: transparent;
+}
+.shoescontainer {
+ width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.shoes {
+  display: inline-block;
+  height: auto;
+  width: 32%;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+@media (min-width:320px) and (max-width:799px)  {
+  #pic-1 , #pic-2 , #pic-3 , #pic-3 , #pic-4 , #pic-5  {
+    width: 100%;
+    height: auto;
+  }
+  .left-div
+  {
+    display: inline-block;
+    max-width: 65%;
+    text-align: left;
+    padding: 10px;
+    background-color: transparent;
+
+    vertical-align: top;
+    color: black;
+    font-weight: 100;
+  }
+  #desktop {
+    display: none;
+  }
+  #mobile {
+    font-size: 3vh;
+  }
+  .shoes {
+    display: inline-block;
+    height: auto;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+
+  }
+  video{
+    height: auto;
+    width:100%;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+
+  }
+  .tricot {
+    width: 100%;
+  }
+  .grad{
+
+    background: linear-gradient(-45deg, rgba(233, 120, 85, 0.87), rgba(231, 60, 126, 0.84), rgba(35, 166, 213, 0.87), rgba(35, 213, 171, 0.83));
+    background-size: 300% 5%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 100%;
+    margin-top: 2%;
+    animation: gradientBG 15s ease infinite;
+  }
+
+
+}
+@media (min-width:801px)  {
+  #mobile {
+    display: none;
+  }
+}

@@ -1,0 +1,21 @@
+.jumbotron{
+  background: #00c3ff;
+  background: -webkit-linear-gradient(to right, #ffff1c, #00c3ff);
+  background: linear-gradient(to right, #ffff1c, #00c3ff);
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+}
+
+#txt{
+  text-align: center;
+  vertical-align: middle;
+  font-size: 4vh;
+  color: #FFFFFF;
+
+}
+
+#posts{
+  margin-left:20%
+}

@@ -1,0 +1,366 @@
+
+li a{
+
+}
+
+.navbar {
+  margin-top: 2%;
+}
+
+.menu{
+  margin-right: 8%;
+}
+
+
+#Logo {
+  height: 25%;
+  width: 25%;
+  margin-left: 20%;
+}
+
+#Accueil , #Noustrouver , #Lamarque , #EspacePro , #Fille , #Garçon {
+  height: 15%;
+  width: 15%;
+}
+
+.header-fixed {
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  width: 100%;
+  outline: none;
+  text-decoration: none;
+  background-color: #ffffff;
+  display: flex;
+
+}
+
+.logo {
+
+}
+
+li{
+
+}
+
+
+a:link{
+  text-decoration: none;
+  border: none;
+}
+
+a {
+  color: #FFFFFF;
+  text-decoration: none;
+  border: none;
+}
+
+#nav{
+  margin-left: 1%;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+
+  line-height: 60px;
+}
+
+.navbar .logo {
+  flex: 3;
+}
+
+.navbar .logo a {
+  display: block;
+  font-size: 2vh;
+  font-weight: bold;
+  color: #fff;
+
+  text-decoration: none;
+}
+
+
+.navbar .li:hover{
+  background-color: #000000;
+  text-decoration: none;
+
+}
+
+.navbar nav {
+  flex: 8;
+}
+
+.navbar label {
+  user-select: none;
+  cursor: pointer;
+  padding: 28px 20px;
+  position: relative;
+  z-index: 3;
+}
+
+.navbar label i {
+  height: 2px;
+  position: relative;
+  width: 18px;
+  font-style: normal;
+  font-weight: normal;
+}
+.navbar label i:before,
+.navbar label i:after {
+  content: '';
+  height: 100%;
+  position: absolute;
+  transition: all .5ms ease-out;
+  width: 100%;
+}
+.navbar label i,
+.navbar label i:before,
+.navbar label i:after {
+  display: block;
+  background: #000000;
+}
+.navbar label i:before {
+  top: 5px;
+}
+.navbar label i:after {
+  top: -5px;
+}
+
+.navbar #navbar-toggle {
+  display: none;
+}
+
+.header #navbar-toggle:checked ~ .menu {
+  visibility: visible;
+  opacity: 0.99;
+}
+.header #navbar-toggle:checked ~ label {
+  background: #212121;
+  border-radius: 50%;
+}
+.header #navbar-toggle:checked ~ label i {
+  background: transparent;
+}
+.header #navbar-toggle:checked ~ label i:before {
+  transform: rotate(-45deg) ;
+
+}
+.header #navbar-toggle:checked ~ label i:after {
+  transform: rotate(45deg);
+}
+.header #navbar-toggle:checked ~ label:not(.steps) i:before,
+.header #navbar-toggle:checked ~ label:not(.steps) i:after {
+  top: 0;
+}
+
+
+@media (min-width: 400px) {
+  #Logodisplay {
+    display: none;
+    position: absolute;
+  }
+
+
+}
+
+
+
+@media (max-width: 768px) {
+  .go{
+    height: 1vh;
+  }
+
+
+  .navbar nav {
+    visibility: hidden;
+    opacity: 0;
+    z-index: 2;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: all 300ms ease-in-out;
+    display: table;
+    background: rgba(221, 221, 221, 0.75);
+  }
+  .Go1{
+    display: none;
+  }
+
+  #Accueil , #Noustrouver , #Lamarque , #EspacePro , #Fille , #Garçon {
+    height: 5%;
+    width: 15%;
+  }
+  .navbar nav ul {
+    margin: 0;
+    padding: 10px 0;
+    display: table-cell;
+    vertical-align: middle;
+  }
+  .navbar nav li {
+    display: block;
+    text-align: center;
+    padding: 0;
+    font-size: 20px;
+    min-height: 5px;
+    font-weight: bold;
+    cursor: pointer;
+
+  }
+  .navbar nav li:hover {
+    background: rgba(0, 0, 0, 0.15);
+
+  }
+  .navbar nav li:hover a {
+    color: #fff;
+    transition: all 5ms ease-out;
+  }
+  .navbar nav li a {
+    color: #212121;
+  }
+}
+
+@media (min-width: 768px) {
+  .navbar nav ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    list-style: none;
+  }
+  label{
+    display: none;
+  }
+  .go{
+    display: none;
+
+
+
+  }
+  .navbar nav li {
+    flex: 1;
+  }
+  .navbar nav li a {
+    display: block;
+    padding: 0 8px;
+    font-size: 16px;
+    line-height: 60px;
+    color: #fff;
+    text-decoration: none;
+  }
+  .navbar nav li.active {
+    background: #555;
+  }
+  .navbar nav li:hover {
+
+  }
+
+
+
+  .navbar label {
+    display: none;
+  }
+
+}
+
+nav.stroke ul li a,
+nav.fill ul li a {
+  position: relative;
+}
+nav.stroke ul li a:after,
+nav.fill ul li a:after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 0;
+  content: '.';
+  color: transparent;
+  background: #000000;
+  height: 3px;
+}
+nav.stroke ul li a:hover:after {
+  width: 100%;
+}
+
+nav.fill ul li a {
+  transition: all 2s;
+}
+
+nav.fill ul li a:after {
+  text-align: left;
+  content: '.';
+  margin: 0;
+  opacity: 0;
+}
+nav.fill ul li a:hover {
+  color: #000000;
+  z-index: 1;
+}
+nav.fill ul li a:hover:after {
+  z-index: -10;
+  animation: fill 1s forwards;
+  -webkit-animation: fill 5ms forwards;
+  -moz-animation: fill 5ms forwards;
+  opacity: 1;
+}
+nav ul li a,
+nav ul li a:after,
+nav ul li a:before {
+  transition: all .2s;
+}
+nav ul li a:hover {
+  color: #e8eb38;
+}
+@media only screen and (max-width: 400px) {
+  .header-fixed {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+  }
+  #nav{
+    margin-left: 0;
+  }
+
+  .hline { width:100%; height:0; background: #e4e4e4
+  }
+  #Logo{
+    display: none;
+  }
+  #Logo1 {
+    height: 30%;
+    width: 30%;
+  }
+
+
+  .navbar label i {
+    height: 2px;
+    position: relative;
+
+    width: 18px;
+    font-style: normal;
+    font-weight: normal;
+  }
+  nav.stroke ul li a:after,
+  nav.fill ul li a:after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 0;
+    content: '.';
+    color: transparent;
+    background: none;
+    height: 3px;
+
+  }
+
+}
+

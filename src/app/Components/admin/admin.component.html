@@ -1,0 +1,37 @@
+<div style="margin-top: 0">
+  <div  *ngIf="!user" id="wrapper">
+
+    <div class="form-layout">
+      <div class="form-left">
+        <div class="footer">
+
+        </div>
+      </div>
+
+      <form #loginForm="ngForm" (ngSubmit)="login(loginForm)" class="form-right">
+        <div id="error" *ngIf="authError">please verify your informations</div>
+        <div>
+          <input   type="email" ngModel #email="ngModel"  name="email" id="email" placeholder="Email" autocomplete="off" />
+        </div>
+        <div>
+          <input type="password" ngModel #password="ngModel"  name="password" id="password" placeholder="Password" autocomplete="off" />
+        </div>
+
+
+        <button class="btn btn-default btn-lg text" type="submit">Se connecter </button>
+
+      </form>
+    </div>
+  </div>
+  <div *ngIf="user"  class="container">
+    <div class="jumbotron">
+      <button class="btn btn-default btn-lg text " *ngIf="user" (click)="logout()">Log out </button>
+      <strong id="sokh"> Hello {{ user?.displayName }} ! </strong>
+    </div>
+
+    <app-dashboardadmin></app-dashboardadmin>
+
+  </div>
+</div>
+
+

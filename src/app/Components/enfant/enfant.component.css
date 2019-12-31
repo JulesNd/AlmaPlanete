@@ -1,0 +1,385 @@
+#enfantbanner {
+  width: 70%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+#enfantbanner2 {
+  width: 70%;
+  position: relative;
+  height: auto;
+  padding: 2%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+
+video{
+  height: auto;
+  width:70%;
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+
+}
+#jumb {
+  background-image: url("https://www.transparenttextures.com/patterns/clean-textile.png")
+}
+.grad{
+
+  background: linear-gradient(-45deg, rgba(233, 120, 85, 0.87), rgba(231, 60, 126, 0.84), rgba(35, 166, 213, 0.87), rgba(35, 213, 171, 0.83));
+  background-size: 300% 5%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 90%;
+  margin-top: 2%;
+  animation: gradientBG 15s ease infinite;
+}
+.cont {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 90%;
+
+}
+#bb {
+  font-size: 5vh;
+  color: white;
+}
+
+@keyframes gradientBG {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+.tricot {background-image: url("https://www.transparenttextures.com/patterns/clean-textile.png");}
+.left-div
+{
+  display: inline-block;
+  max-width: 45%;
+  text-align: left;
+  padding: 10px;
+  background-color: transparent;
+  margin: 15px;
+  vertical-align: top;
+  color: black;
+  font-weight: 100;
+}
+.right-text {
+  padding: 2%;
+  text-align: justify;
+  text-justify: inter-word;
+  word-wrap: break-word;
+  height: 20%;
+  color: black;
+}
+.left-text{
+  padding: 2%;
+  height: 20%;
+  text-align: justify;
+  text-justify: inter-word;
+  word-wrap: break-word;
+
+}
+.right-div
+{
+  display: inline-block;
+  max-width: 46%;
+  text-align: left;
+
+  border-radius: 3px;
+
+  margin: 15px;
+  font-size: 3.5vh;
+
+  font-weight: 100;
+
+  color: #222222;
+
+}
+.tab-content {
+  overflow: hidden; }
+.tab-content img {
+  width: 100%;
+}
+.preview-pic{
+  width: 100%;
+  height: auto;
+}
+#pic-1 , #pic-2 , #pic-3 , #pic-3 , #pic-4 , #pic-5  {
+  width: 60%;
+  height: auto;
+}
+
+.jumbotron {
+  background-color: transparent;
+}
+.shoescontainer {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.shoes {
+  display: inline-block;
+  height: auto;
+  width: 32%;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+.Etikleft {
+  padding: 2%;
+  text-align: justify;
+  text-justify: inter-word;
+  word-wrap: break-word;
+  display: inline-block;
+  max-width: 46%;
+  border-radius: 3px;
+  margin: 15px;
+
+  font-size: 3.5vh;
+
+  font-weight: 100;
+
+
+  color: #222222;
+
+}
+.cotino {
+  display: inline-block;
+  max-width: 50%;
+  text-align: left;
+  padding: 30px;
+  border-radius: 3px;
+  margin: 15px;
+  font-size: 3vh;
+  -webkit-box-shadow: 0 0 15px rgba(46, 46, 46, 0.35);
+  -moz-box-shadow: 0 0 15px rgba(46, 46, 46, 0.35);
+  box-shadow:0 0 15px rgba(46, 46, 46, 0.35);
+  /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+  font-weight: 100;
+  color: #FFFFFF;
+}
+.gaspi {
+  display: inline-block;
+  max-width: 46%;
+  text-align: left;
+  padding: 30px;
+  border-radius: 3px;
+
+  font-size: 3.5vh;
+
+  /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */  /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+  font-weight: 100;
+  color: #222222;
+}
+.Etikshoes {
+  display: inline-block;
+  max-width: 45%;
+  text-align: left;
+  padding: 10px;
+  background-color: transparent;
+  margin: 15px;
+  vertical-align: top;
+  color: #fff;
+  font-weight: 100;
+}
+.jean{background-image: url("https://www.transparenttextures.com/patterns/45-degree-fabric-light.png");}
+.tricot {background-image: url("https://www.transparenttextures.com/patterns/clean-textile.png");}
+.tricot3{background-image: url("https://www.transparenttextures.com/patterns/cloth-alike.png");}
+#pic-1 , #pic-2 , #pic-3 , #pic-3 , #pic-4 , #pic-5  {
+  width: 82%;
+  height: auto;
+}
+#pic-1a , #pic-2a , #pic-3a , #pic-3a , #pic-4a , #pic-5a  {
+  width: 90%;
+  height: auto;
+}
+#pic-1d , #pic-2d , #pic-3d {
+  width: 90%;
+  height: auto;
+}
+#pic-1e , #pic-2e , #pic-3e, #pic-4e {
+  width: 90%;
+  height: auto;
+}
+
+#pic-1f , #pic-2f , #pic-3f, #pic-4f , #pic-5f {
+  width: 90%;
+  height: auto;
+}
+.preview-pic{
+  width: 100%;
+  height: auto;
+}
+.preview-thumbnail.nav-tabs {
+  border: none;
+  margin-top: 5%; }
+.preview-thumbnail.nav-tabs li {
+  width: 30%;
+  margin-right: 2.5%; }
+.preview-thumbnail.nav-tabs li img {
+  max-width: 100%;
+  display: block; }
+.preview-thumbnail.nav-tabs li a {
+  padding: 0;
+  margin: 0; }
+.preview-thumbnail.nav-tabs li:last-of-type {
+  margin-right: 0; }
+
+.tab-content {
+  overflow: hidden; }
+.tab-content img {
+  width: 100%;
+}
+.preview-thumbnail.nav-tabs {
+  border: none;
+  margin-top: 5%; }
+.preview-thumbnail.nav-tabs li {
+  width: 30%;
+  margin-right: 2.5%; }
+.preview-thumbnail.nav-tabs li img {
+  max-width: 100%;
+  display: block; }
+.preview-thumbnail.nav-tabs li a {
+  padding: 0;
+  margin: 0; }
+.preview-thumbnail.nav-tabs li:last-of-type {
+  margin-right: 0; }
+
+ul:hover {
+  cursor: pointer;
+}
+
+@media (min-width:320px) and (max-width:799px)  {
+  #pic-1a , #pic-2a , #pic-3a , #pic-3a , #pic-4a , #pic-5a , #pic-1d , #pic-2d , #pic-4d , #pic-1e , #pic-2e , #pic-4e {
+    width: 100%;
+    height: auto;
+  }
+  .left-div
+  {
+    display: inline-block;
+    max-width: 65%;
+    text-align: left;
+    padding: 10px;
+    background-color: transparent;
+
+    vertical-align: top;
+    color: black;
+    font-weight: 100;
+  }
+  .desktop {
+    display: none;
+  }
+  .mobile {
+    font-size: 3vh;
+  }
+  .shoes {
+    display: inline-block;
+    height: auto;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+
+  }
+  .Etikshoes {
+    display: inline-block;
+    max-width: 80%;
+    text-align: left;
+    padding: 10px;
+    background-color: transparent;
+    margin: 15px;
+    vertical-align: top;
+    color: #fff;
+    font-weight: 100;
+  }
+  .left-div
+  {
+    display: inline-block;
+    max-width: 80%;
+    text-align: left;
+    padding: 10px;
+    background-color: transparent;
+    margin: 15px;
+    vertical-align: top;
+    color: black;
+    font-weight: 100;
+  }
+  .right-div
+  {
+    display: inline-block;
+    max-width: 80%;
+    text-align: left;
+
+    border-radius: 3px;
+
+    margin: 15px;
+    font-size: 3.5vh;
+
+    font-weight: 100;
+
+    color: #222222;
+
+  }
+  #gaspidesktop{
+    display: none;
+  }
+  #cotinodesktop {
+    display: none;
+  }
+ #tricotinedesktop {
+  display: none;
+}
+  .grad{
+
+    background: linear-gradient(-45deg, rgba(233, 120, 85, 0.87), rgba(231, 60, 126, 0.84), rgba(35, 166, 213, 0.87), rgba(35, 213, 171, 0.83));
+    background-size: 300% 5%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 100%;
+    margin-top: 2%;
+    animation: gradientBG 15s ease infinite;
+  }
+  #enfantbanner {
+    width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+  #enfantbanner2 {
+    width: 100%;
+    position: relative;
+    height: auto;
+    padding: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+}
+@media (min-width:801px)  {
+  .mobile {
+    display: none;
+  }
+  #gaspimobile {
+    display: none;
+  }
+  #cotinomobile {
+    display: none;
+  }
+  #tricotinemobile {
+    display: none;
+  }
+}
