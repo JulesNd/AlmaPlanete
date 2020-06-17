@@ -11,14 +11,16 @@
 }
 #myCarousel {
   width: 95%;
+  height: auto;
   margin-left:auto;
   margin-right: auto;
   display: block;
   -webkit-box-shadow: 0 0 15px rgba(71,71,71,.2);
   -moz-box-shadow: 0 0 15px rgba(71,71,71,.2);
   box-shadow:0 0 15px rgba(71,71,71,.2);
-
-
+}
+#c:hover {
+  cursor:pointer;
 }
 section{
   width: 90%;
@@ -87,7 +89,7 @@ section{
 
 .shrink {
 
-  transition-duration: 0.3s;
+  transition-duration: 10s;
   transition-property: transform;
   transform: translateZ(0);
 
@@ -183,7 +185,7 @@ h1 {
   font-weight: 100;
   text-shadow: 0 0 5px #fff;
 }
-.shadow{
+.shadow1{
   color: #fff;
   font-weight: 100;
   text-shadow: 0 0 5px #fff;
@@ -193,35 +195,36 @@ h1 {
   margin: 0 auto;
   margin-top: 5%;
   white-space: nowrap;
-  max-width: 1200px;
   width: 100%;
   height: 400px;
   position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  overflow: hidden;
-  background: rgba(66, 66, 66, 0.5) url("https://drive.google.com/uc?export=view&id=1vx-T5v8I1-gYEL5D6Cn7v7URAG8re-S_") repeat fixed;
-  background-position: center center;
 
+  overflow: hidden;
+  background:  url("https://drive.google.com/uc?export=view&id=1UXeHSAbqOEcwJDuALreptRTRPdA43Tjh") repeat fixed;
+  background-size: 85% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
   position: relative;
   z-index: 5;
   font-size: 0;
 }
+.w:hover {
+  cursor: pointer;
+}
+.a {
+  width: 80%;
+  height: auto;
+}
 
 .i {
-  width: 40px;
-  height: 100%;
+
   display: inline-block;
   position: relative;
   z-index: 4;
   padding: 2px;
   transition: all 10s ease-in-out;
-  background: rgba(66, 66, 66, 0.5) url("https://drive.google.com/uc?export=view&id=1vx-T5v8I1-gYEL5D6Cn7v7URAG8re-S_") repeat fixed;
+  background: rgba(66, 66, 66, 0.5) url("https://drive.google.com/uc?export=view&id=10fSFtruANotu2mh4b7FEq3_EluLGeNAt") repeat fixed;
   background-size: cover;
-  background-position: 50% 100%;
-  border-radius: 0%;
 }
 .i:hover {
   transition: all 0s linear;
@@ -235,9 +238,7 @@ h1 {
   z-index: 2;
   width: 100%;
   text-align: center;
-  top: 35px;
   font-size: 40px;
-  color: beige;
   text-shadow: 0 5px 17px rgba(87, 87, 80, 0.85);
 }
 

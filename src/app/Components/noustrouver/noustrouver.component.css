@@ -13,11 +13,8 @@
   animation-name: gradients;
 }
 
-.points {
-  margin-right: auto;
-  margin-left: auto;
-  display: block;
-  width: 50%;
+.i4ewOd-pzNkMb-r4nke-LS81yb{
+  display: none;
 }
 
 #besson{
@@ -38,9 +35,12 @@
 }
 
 h3{
-  margin-left: 23%;
+  text-align: center;
   color: #FFFFFF;
   font-size: 3rem;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 }
 
 img{
@@ -127,4 +127,10 @@ img{
 
   }
 
+}
+
+.mapdiv {
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
 }

@@ -200,3 +200,7 @@ span:hover {
   color: red;
 }
 
+img {
+  width: 100%;
+  height: auto
+}
