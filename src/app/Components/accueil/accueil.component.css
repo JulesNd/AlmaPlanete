@@ -2617,6 +2617,11 @@ body {
   height: 400px;
 }
 
+#zebraFirst {
+  width: 30%;
+  height: auto;
+}
+
 /*
 	We set z-index to be higher than the back image, so it's alwyas on the front.
 
