@@ -18,20 +18,21 @@
   padding: 5%;
 }
 
-.Text2 {
+.Text2, .Text3 {
   font-size: 3vh;
   font-family: hand, serif;
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
+
 #video-element{
   width: 100%;
   height: auto;
 }
 
 .BigText1, .BigText2 {
-  font-size: 4.5vh;
+  font-size: 4vh;
   font-weight: bold;
   font-family: hand, serif;
   color: rgb(18,195,243);
@@ -49,12 +50,13 @@
   grid-gap: 1em;
 }
 
-.BigText3 {
-  font-size: 4.5vh;
+.BigText3, .BigText4 {
+  font-size: 4vh;
   font-weight: bold;
   font-family: hand, serif;
   color: rgb(18,195,243);
   padding: 2%;
+  text-align: center;
 }
 .retrait {
   text-indent: 60px;
@@ -68,7 +70,7 @@
   margin-right: auto;
 }
 
-#Photo2{
+#Photo2, #Photo4{
   width: 60%;
   height: auto;
   display: block;
@@ -76,3 +78,54 @@
   margin-left: auto;
   margin-right: auto;
 }
+
+.BigText4 {
+  font-size: 4vh;
+  font-weight: bold;
+  font-family: hand, serif;
+  color: rgb(18,195,243);
+  padding: 1%;
+  text-align: center;
+}
+
+ .BigText5 {
+   font-size: 2.5vh;
+   font-weight: bold;
+   font-family: hand, serif;
+   padding: 1%;
+   padding-bottom: 2%;
+   text-align: center;
+ }
+
+ .BigText5 span {
+   background-color: black;
+   padding: 0.5%;
+   color: white;
+ }
+
+ .BigText6{
+   font-size: 3.5vh;
+   font-weight: bold;
+   font-family: hand, serif;
+   color: rgb(18,195,243);
+   padding: 1%;
+   text-align: center;
+ }
+
+ .retrait2 {
+   text-indent: 60px;
+   text-align: center;
+ }
+
+ #Photo3 {
+   width: 30%;
+   height: auto;
+   display: block;
+   margin-top: 5%;
+   margin-left: auto;
+   margin-right: auto;
+ }
+
+ .Header {
+   background:  url("https://drive.google.com/uc?export=view&id=1Fm9KaT8WRBLBrQgNprbk3B44qPh6Ocef") repeat fixed;
+ }

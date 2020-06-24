@@ -10,7 +10,11 @@ export class AccueilComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+<<<<<<< HEAD
 
+=======
+    
+>>>>>>> 70118accca5343a707c7ac9f267ad697a26c03db
   }
 
 }
