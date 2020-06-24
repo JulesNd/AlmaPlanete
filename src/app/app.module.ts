@@ -1,6 +1,5 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import {AuthService} from './Components/core/auth.service';
 
 
 import { AppRoutingModule } from './app-routing.module';
@@ -29,6 +28,9 @@ import { MentionlegalComponent } from './Components/mentionlegal/mentionlegal.co
 import { BebeComponent } from './Components/bebe/bebe.component';
 import { EnfantComponent } from './Components/enfant/enfant.component';
 import { AdulteComponent } from './Components/adulte/adulte.component';
+import {Chaussuresdetails1Component} from './Components/chaussuresdetails1/chaussuresdetails1.component';
+import {Chaussuresdetails2Component} from './Components/chaussuresdetails2/chaussuresdetails2.component';
+import {Chaussuresdetails3Component} from './Components/chaussuresdetails3/chaussuresdetails3.component';
 const routes: Routes = [
   {path: 'Articles', component: PostListComponent},
   {path: 'Articles/:id', component: PostDetailComponent},
@@ -48,6 +50,9 @@ const routes: Routes = [
     PostDetailComponent,
     NavbarComponent,
     PostListComponent,
+    Chaussuresdetails1Component,
+    Chaussuresdetails2Component,
+    Chaussuresdetails3Component,
     SignupComponent,
     NouscontacterComponent,
     MentionlegalComponent,
