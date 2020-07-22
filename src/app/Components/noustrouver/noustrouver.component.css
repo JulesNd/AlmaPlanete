@@ -9,14 +9,16 @@
 
 #Cdiscount {
   cursor: pointer;
-  width: 15%;
+  width: 85%;
   height: auto;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  padding: 2%;
-}
 
+}
+#Cdiscount:hover {
+  transform: scale(1.2);
+}
 .i4ewOd-pzNkMb-r4nke-LS81yb{
   display: none;
 }
@@ -137,4 +139,19 @@ img{
   margin-right: auto;
   margin-left: auto;
   display: block;
+}
+
+.Title{
+  font-family: Bebas, serif;
+}
+
+
+.container  {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
+  grid-gap: 1em;
 }

@@ -10,6 +10,7 @@ export class LejournalplaneteComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+
   }
 
 }

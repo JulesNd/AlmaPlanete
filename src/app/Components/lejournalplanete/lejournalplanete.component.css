@@ -1,21 +1,325 @@
-.jumbotron{
-  background: #00c3ff;
-  background: -webkit-linear-gradient(to right, #ffff1c, #00c3ff);
-  background: linear-gradient(to right, #ffff1c, #00c3ff);
-  width: 80%;
-  margin-right: auto;
+.Container1 {
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 0 20px;
+  width: 100%;
+  display: grid;
+  gap: 5px;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 1em;
+}
+
+.Text1 {
+  font-size: 3vh;
+  font-family: hand, serif;
+  display: block;
   margin-left: auto;
+  margin-right: auto;
+  padding: 5%;
+}
+
+.Text2, .Text3 {
+  font-size: 3vh;
+  font-family: hand, serif;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#video-element{
+  width: 100%;
+  height: auto;
+}
+
+.BigText1, .BigText2 {
+  font-size: 4vh;
+  font-weight: bold;
+  font-family: Bebas, serif;
+  color: rgb(18,195,243);
+  text-align: center;
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.Container2 {
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 0 20px;
+  width: 100%;
+  display: block;
+
+  grid-gap: 1em;
+}
+
+.BigText3, .BigText4 {
+  font-size: 4vh;
+  font-weight: bold;
+  font-family: Bebas, serif;
+  color: rgb(18,195,243);
+  padding: 2%;
+  text-align: center;
+}
+.retrait {
+  text-indent: 60px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+
+li {
+  margin: 0px 0;
+}
+
+#Photo1 {
+  width: 80%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#PhotoA {
+  width: 90%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#PhotoB {
+  width: 70%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 2%;
+  padding-bottom: 3%;
+}
+#PhotoC{
+  width: 60%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+
+#Photo2, #Photo4{
+  width: 60%;
+  height: auto;
+  display: block;
+  margin-top: 5%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.BigText4 {
+  font-size: 4.5vh;
+  font-weight: bold;
+  font-family: Bebas, serif;
+  color: rgb(18,195,243);
+  padding: 1%;
+  text-align: center;
+}
+
+.BigText5 {
+  font-size: 2.5vh;
+  font-weight: bold;
+  font-family: Bebas, serif;
+  padding: 1%;
+  padding-bottom: 2%;
+  text-align: center;
+}
+
+.BigText5 span {
+  background-color: black;
+  padding: 0.5%;
+  font-family: Bebas, serif;
+
+  color: white;
+}
+
+.BigText6{
+  font-size: 3.5vh;
+  font-weight: bold;
+  font-family: Bebas, serif;
+  color: rgb(18,195,243);
+  padding: 1%;
+  text-align: center;
+}
+
+.retrait2 {
+  text-indent: 60px;
+  text-align: center;
+}
+
+#Photo3 {
+  width: 30%;
+  height: auto;
+  display: block;
+  margin-top: 5%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 2%;
+}
+
+.Header {
+  padding-top: 3%;
+  padding-bottom: 3%;
+  background:  url("https://drive.google.com/uc?export=view&id=1Fm9KaT8WRBLBrQgNprbk3B44qPh6Ocef") repeat fixed;
+}
+
+.main{
+  width: 100%;
+  margin: 0 auto;
+  background:  url("https://drive.google.com/uc?export=view&id=1Fm9KaT8WRBLBrQgNprbk3B44qPh6Ocef") repeat fixed;
+  padding: 2%;
+  margin-top: 2%;
+
+}
+.card_image{
+  padding: 5%;
+  width: 50%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.val {
+  font-family: Bebas, serif;
+  color: rgb(18,195,243);
+  font-size: 6vh;
+  font-weight: 400;
+  text-align: center;
+  padding: 2%;
+  margin-left: auto;
+  margin-right: auto;
   display: block;
 }
 
-#txt{
-  text-align: center;
+img {
+  height: auto;
+  max-width: 100%;
   vertical-align: middle;
-  font-size: 4vh;
-  color: #FFFFFF;
+}
+
+.btn {
+  color: #ffffff;
+  padding: 0.8rem;
+  font-size: 14px;
+  text-transform: uppercase;
+  border-radius: 4px;
+  font-weight: 400;
+  display: block;
+  width: 100%;
+  cursor: pointer;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: transparent;
+}
+
+
+.btn:hover {
+  background-color: rgba(255, 255, 255, 0.12);
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  border:none!important;
+
+  width: 100%;
+
 
 }
 
-#posts{
-  margin-left:20%
+.cards_item {
+  display: flex;
+  padding: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+  outline: none;
+  border:none!important;
+}
+
+@media (min-width: 40rem) {
+  .cards_item {
+    width: 30%;
+  }
+}
+
+@media (min-width: 56rem) {
+  .cards_item {
+    width: 20.3333%;
+  }
+}
+
+.card {
+  background-color: transparent;
+  border-radius: 0.25rem;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  width:100%;
+  border:none!important;
+
+}
+
+.card_content {
+  padding: 1rem;
+  background: transparent;
+  width: 100%;
+}
+
+.card_title {
+
+  text-align: center;
+  font-size: 2.5vh;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  margin: 0px;
+  font-family: hand, serif;
+}
+
+.card_text {
+  text-align: center;
+  font-size: 2vh;
+  line-height: 1.5;
+  margin-bottom: 1.25rem;
+  font-weight: 400;
+  font-family: hand, serif;
+}
+@media only screen and (min-width:375px) and (max-width: 799px) {
+
+  .t{
+    font-size: 2vh;
+  }
+  .BigText1, .BigText2 {
+    font-size: 2vh;
+    font-weight: bold;
+    font-family: Bebas, serif;
+    color: rgb(18,195,243);
+    text-align: center;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+  }
+  .Container1 {
+    margin: 20px auto;
+    padding: 0 20px;
+    width: 100%;
+    display: block;
+    gap: 5px;
+
+  }
+
 }

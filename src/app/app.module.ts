@@ -1,7 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
-
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { AccueilComponent } from './Components/accueil/accueil.component';
@@ -31,6 +30,7 @@ import { AdulteComponent } from './Components/adulte/adulte.component';
 import {Chaussuresdetails1Component} from './Components/chaussuresdetails1/chaussuresdetails1.component';
 import {Chaussuresdetails2Component} from './Components/chaussuresdetails2/chaussuresdetails2.component';
 import {Chaussuresdetails3Component} from './Components/chaussuresdetails3/chaussuresdetails3.component';
+import { ConditionsComponent } from './conditions/conditions.component';
 const routes: Routes = [
   {path: 'Articles', component: PostListComponent},
   {path: 'Articles/:id', component: PostDetailComponent},
@@ -59,6 +59,7 @@ const routes: Routes = [
     BebeComponent,
     EnfantComponent,
     AdulteComponent,
+    ConditionsComponent,
   ],
   imports: [
     BrowserModule,

@@ -8,6 +8,16 @@
   src: url("assets/Pangolin-Regular.ttf") format("opentype");
   font-display: swap;
 }
+@font-face {
+  font-family: Bebas;
+  src: url("assets/BebasNeue-Regular.woff") format("opentype");
+  font-display: swap;
+}
+@font-face {
+  font-family: Gobold;
+  src: url("assets/Gobold-Blocky-Regular.otf") format("opentype");
+  font-display: swap;
+}
 
 *{
   font-family: concert, serif;

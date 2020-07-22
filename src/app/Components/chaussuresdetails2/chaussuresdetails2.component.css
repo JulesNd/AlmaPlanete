@@ -1,7 +1,7 @@
 body {
   background-color: #f5f5f5;
   padding-top: 25px;
-  font-family: 'Open sans', Arial, sans-serif;
+  font-family: 'Bebas', Arial, sans-serif;
 }
 
 .header-navigation {
@@ -74,7 +74,6 @@ body {
 .product-info .product-gallery {
   display: flex;
   flex-direction: row;
-  border-bottom: 1px solid rgba(0,0,0,.125);
 }
 
 .product-gallery-featured {
@@ -85,8 +84,32 @@ body {
   align-items: flex-start;
   padding: 15px 0;
   cursor: zoom-in;
+  padding: 5%;
+
+}
+.dot {
+  height: 25px;
+  width: 25px;
+
+  border-radius: 50%;
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  float: top;
+  margin: 1%;
+  cursor: pointer;
 }
 
+.pink{
+  background-color: hotpink;
+}
+.blue{
+  background-color: #13134b;
+}
+.black{
+  background-color: black;
+}
 .product-gallery-thumbnails .thumbnails-list li {
   margin-bottom: 5px;
   cursor: pointer;
@@ -104,7 +127,7 @@ body {
   content: "";
   width: 3px;
   height: 100%;
-  background: #007bff;
+  background: #13134b;
   position: absolute;
   top: 0;
   left: 0;
@@ -145,4 +168,25 @@ hr:after {
   display: block;
   height: 1px;
   width: 100%;
+}
+.card-header{
+  background-color: #13134b;
+}
+
+@media only screen and (min-width:375px) and (max-width: 799px) {
+
+
+  .product-payment-details {
+    font-size: 1.2vh;
+  }
+  .product-gallery-featured {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 15px 0;
+    cursor: zoom-in;
+    padding: 10%;
+  }
 }

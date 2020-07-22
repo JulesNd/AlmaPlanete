@@ -29,4 +29,7 @@ export class DashboardadminComponent implements OnInit {
     this.postService.create(data);
   }
 
+  alert() {
+    alert('trabalho está feito :D ! ');
+  }
 }

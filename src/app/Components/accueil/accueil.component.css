@@ -1,7 +1,7 @@
 .carousel-inner > .item > img,
 .carousel-inner > .item > a > img {
   width: 100%;
-  margin: auto;
+  margin: 0;
 }
 
 
@@ -42,12 +42,80 @@ section{
   width: 100%;
   height: auto;
   position: relative;
+  padding: 0;
 
 }
+
+.mygrid {
+  max-width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+
+  padding: 0 ;
+  width: 100%;
+  display: grid;
+  gap: 0;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 0;
+}
+/* Dashed red border */
+hr.new2 {
+  border-top: 0.6vh dashed black;
+  width: 80%;
+}
+
+
+.mytext {
+  font-size: 5vh;
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+  text-align: center;
+  padding: 2%;
+
+}
+mark{
+  background-color: #039be5;
+  color: white;
+  text-transform: capitalize;
+
+}
+.mytext1  {
+  font-size: 3vh;
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+
+  color: white;
+  text-align: center;
+  padding: 1%;
+  width: 80%;
+  letter-spacing: 2px;
+}
+
+.rightcarou{
+  background:  url("https://drive.google.com/uc?export=view&id=1Fm9KaT8WRBLBrQgNprbk3B44qPh6Ocef") repeat fixed;
+  margin-top: 3.5%;
+}
+.log{
+  width: 35%;
+  height: auto;
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+  margin-top: 8%;
+
+}
+
+#photo {
+  width: 40%;
+  height: auto;
+}
+
 .left-div
 {
   display: inline-block;
-  width: 40%;
+  width: 50%;
   height: auto;
   text-align: left;
   -webkit-box-shadow: 0 0 15px rgba(71,71,71,.2);
@@ -124,9 +192,11 @@ section{
   margin-left: auto;
   margin-right: auto;
   display: block;
-  width: 95%;
+  width: 100%;
+
 }
 .Monimage {
+  cursor: pointer;
   margin-left: auto;
   margin-right: auto;
   display: block;
@@ -204,6 +274,7 @@ h1 {
   text-shadow: 0 0 5px #fff;
 }
 .shadow1{
+
    color: black;
    font-weight: 100;
    text-shadow: 0 0 5px #fff;
@@ -243,7 +314,7 @@ h1 {
   cursor: pointer;
 }
 .a {
-  width: 80%;
+  width: 100%;
   height: auto;
 }
 
@@ -2544,6 +2615,50 @@ body {
 }
 /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
 @media (min-width:320px) and (max-width:799px)  {
+  .image{
+    width: 80%;
+    height: auto;
+    display: flex;
+  }
+  .Monimage {
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 70%;
+  }
+
+ #mobile
+ {
+   margin-top: 5%;
+   background:  url("https://drive.google.com/uc?export=view&id=1Fm9KaT8WRBLBrQgNprbk3B44qPh6Ocef") repeat fixed;
+ }
+  .shadow1{
+    font-size: 2vh;
+  }
+  .shadow2{
+    font-size: 2vh;
+  }
+
+  .mytext1  {
+    font-size: 1.5vh;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+
+    color: white;
+    text-align: center;
+    padding: 1%;
+    width: 80%;
+    letter-spacing: 2px;
+  }
+  .mytext {
+    font-size: 2vh;
+
+
+
+  }
+
   .w {
     display: none;
   }
