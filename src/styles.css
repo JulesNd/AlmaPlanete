@@ -23,3 +23,10 @@
   font-family: concert, serif;
 
 }
+@viewport {
+  width: device-width;
+  zoom: 1;
+}
+img, video, canvas {
+  max-width: 100%;
+}

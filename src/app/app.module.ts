@@ -1,6 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
+import * as bootstrap from 'bootstrap';
+import * as $ from 'jquery';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { AccueilComponent } from './Components/accueil/accueil.component';
@@ -31,6 +32,9 @@ import {Chaussuresdetails1Component} from './Components/chaussuresdetails1/chaus
 import {Chaussuresdetails2Component} from './Components/chaussuresdetails2/chaussuresdetails2.component';
 import {Chaussuresdetails3Component} from './Components/chaussuresdetails3/chaussuresdetails3.component';
 import { ConditionsComponent } from './conditions/conditions.component';
+import * as Bootstrap from 'bootstrap';
+import { DansnoschaussuresComponent } from './Components/dansnoschaussures/dansnoschaussures.component';
+import { ActionexterieuresComponent } from './Components/actionexterieures/actionexterieures.component';
 const routes: Routes = [
   {path: 'Articles', component: PostListComponent},
   {path: 'Articles/:id', component: PostDetailComponent},
@@ -60,6 +64,8 @@ const routes: Routes = [
     EnfantComponent,
     AdulteComponent,
     ConditionsComponent,
+    DansnoschaussuresComponent,
+    ActionexterieuresComponent,
   ],
   imports: [
     BrowserModule,

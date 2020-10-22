@@ -17,6 +17,8 @@ import {Chaussuresdetails1Component} from './Components/chaussuresdetails1/chaus
 import {Chaussuresdetails2Component} from './Components/chaussuresdetails2/chaussuresdetails2.component';
 import {Chaussuresdetails3Component} from './Components/chaussuresdetails3/chaussuresdetails3.component';
 import {ConditionsComponent} from './conditions/conditions.component';
+import { DansnoschaussuresComponent } from './Components/dansnoschaussures/dansnoschaussures.component';
+import { ActionexterieuresComponent } from './Components/actionexterieures/actionexterieures.component';
 
 
 
@@ -38,6 +40,8 @@ const routes: Routes = [
   {path: 'Ligne-Bébé', component: BebeComponent},
   {path: 'Ligne-Enfant', component: EnfantComponent},
   {path: 'Ligne-Adulte' , component: AdulteComponent},
+  {path: 'Dans-nos-chaussures', component: DansnoschaussuresComponent},
+  {path: 'Actions-exterieures', component: ActionexterieuresComponent}
 
 ];
 
